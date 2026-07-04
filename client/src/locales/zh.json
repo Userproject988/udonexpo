@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": "首页",
+    "about": "关于展会",
+    "gallery": "画廊",
+    "map": "地点",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "subtitle": "国际园艺博览会",
+    "title": "乌隆他尼 2026",
+    "date": "2026年11月1日 – 2027年3月14日",
+    "location": "廊德湿地，古沙分区，孟区，乌隆他尼府",
+    "cta_primary": "计划您的参观",
+    "cta_secondary": "了解更多"
+  },
+  "stats": {
+    "days": "天",
+    "days_desc": "活动持续时间",
+    "visitors": "百万人",
+    "visitors_desc": "预计访客",
+    "countries": "国家",
+    "countries_desc": "参与国家",
+    "area": "莱",
+    "area_desc": "活动场地"
+  },
+  "about": {
+    "badge": "关于展会",
+    "title": "东南亚最大的国际园艺博览会",
+    "description": "2026年乌隆他尼国际园艺博览会是由国际园艺生产者协会（AIPH）认可的世界级园艺展览。本次活动将展示来自全球各地的植物之美，以及农业和环境可持续发展的前沿创新技术。",
+    "feature1_title": "国际展览",
+    "feature1_desc": "来自全球30多个国家的展馆",
+    "feature2_title": "绿色创新",
+    "feature2_desc": "未来农业技术",
+    "feature3_title": "伊善文化",
+    "feature3_desc": "体验当地生活方式和传统"
+  },
+  "gallery": {
+    "badge": "画廊",
+    "title": "世界园艺之美",
+    "desc": "欣赏世界级园艺活动的氛围和花园设计"
+  },
+  "map": {
+    "badge": "场地",
+    "title": "廊德湿地",
+    "desc": "古沙分区，孟区，乌隆他尼府 41330",
+    "how_to": "如何到达",
+    "by_car": "自驾",
+    "by_car_desc": "从曼谷出发，沿2号公路（友谊路）行驶约560公里。",
+    "by_plane": "飞机",
+    "by_plane_desc": "飞往乌隆他尼机场，然后乘车约20分钟。",
+    "by_train": "火车",
+    "by_train_desc": "东北铁路线，在乌隆他尼站下车。"
+  },
+  "countdown": {
+    "title": "博览会倒计时",
+    "days": "天",
+    "hours": "小时",
+    "minutes": "分钟",
+    "seconds": "秒"
+  },
+  "footer": {
+    "title": "UdonExpo 2026",
+    "desc": "2026年乌隆他尼国际园艺博览会\n2026年11月1日 – 2027年3月14日",
+    "quick_links": "快速链接",
+    "contact": "联系我们",
+    "address": "廊德湿地，古沙分区\n孟区，乌隆他尼府 41330",
+    "phone": "电话: +66-42-XXX-XXX",
+    "email": "邮箱: info@udonexpo2026.go.th",
+    "copyright": "© 2026 乌隆他尼国际园艺博览会。保留所有权利。"
+  },
+  "language": {
+    "th": "ไทย",
+    "en": "English",
+    "zh": "中文"
+  }
+}

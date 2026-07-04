@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "gallery": "Gallery",
+    "map": "Location",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "International Horticultural Expo",
+    "title": "Udon Thani 2026",
+    "date": "November 1, 2026 – March 14, 2027",
+    "location": "Nong Daet Wetland, Kut Sa Subdistrict, Mueang District, Udon Thani Province",
+    "cta_primary": "Plan Your Visit",
+    "cta_secondary": "Learn More"
+  },
+  "stats": {
+    "days": "Days",
+    "days_desc": "Event Duration",
+    "visitors": "Million",
+    "visitors_desc": "Expected Visitors",
+    "countries": "Countries",
+    "countries_desc": "Participating Nations",
+    "area": "Rai",
+    "area_desc": "Event Area"
+  },
+  "about": {
+    "badge": "About the Expo",
+    "title": "The Largest International Horticultural Expo in Southeast Asia",
+    "description": "The Udon Thani International Horticultural Expo 2026 is a world-class horticultural exhibition endorsed by the International Association of Horticultural Producers (AIPH). This event will showcase the beauty of flora from around the globe, along with cutting-edge innovations in agriculture and environmental sustainability.",
+    "feature1_title": "International Exhibitions",
+    "feature1_desc": "Pavilions from over 30 countries worldwide",
+    "feature2_title": "Green Innovation",
+    "feature2_desc": "Future agricultural technology",
+    "feature3_title": "Isan Culture",
+    "feature3_desc": "Experience local lifestyle and traditions"
+  },
+  "gallery": {
+    "badge": "Gallery",
+    "title": "The Beauty of World Horticulture",
+    "desc": "View the atmosphere and garden designs from world-class horticultural events"
+  },
+  "map": {
+    "badge": "Venue",
+    "title": "Nong Daet Wetland",
+    "desc": "Kut Sa Subdistrict, Mueang District, Udon Thani Province 41330",
+    "how_to": "How to Get There",
+    "by_car": "By Car",
+    "by_car_desc": "From Bangkok, take Highway 2 (Mittraphap) approximately 560 km.",
+    "by_plane": "By Plane",
+    "by_plane_desc": "Fly to Udon Thani Airport, then take a car for about 20 minutes.",
+    "by_train": "By Train",
+    "by_train_desc": "Northeastern Railway Line, get off at Udon Thani Station."
+  },
+  "countdown": {
+    "title": "Countdown to the Expo",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds"
+  },
+  "footer": {
+    "title": "UdonExpo 2026",
+    "desc": "Udon Thani International Horticultural Expo 2026\nNov 1, 2026 – Mar 14, 2027",
+    "quick_links": "Quick Links",
+    "contact": "Contact Us",
+    "address": "Nong Daet Wetland, Kut Sa Subdistrict\nMueang District, Udon Thani 41330",
+    "phone": "Tel: +66-42-XXX-XXX",
+    "email": "Email: info@udonexpo2026.go.th",
+    "copyright": "© 2026 Udon Thani International Horticultural Expo. All rights reserved."
+  },
+  "language": {
+    "th": "ไทย",
+    "en": "English",
+    "zh": "中文"
+  }
+}
