@@ -2,57 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 @import '@fontsource/noto-sans-thai/400.css';
 @import '@fontsource/noto-sans-thai/700.css';
-@import '@fontsource/noto-sans-sc/400.css';
-@import '@fontsource/noto-sans-sc/700.css';
 
 @layer base {
   html {
     scroll-behavior: smooth;
   }
   body {
-    @apply bg-expo-cream text-expo-dark antialiased;
-    font-family: 'Noto Sans Thai', 'Noto Sans SC', system-ui, sans-serif;
+    @apply bg-darkness text-daisy antialiased;
+    font-family: 'Inter', 'Noto Sans Thai', system-ui, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', 'Noto Sans Thai', Georgia, serif;
   }
 }
 
 @layer components {
-  .glass-nav {
-    @apply backdrop-blur-xl bg-white/80 border-b border-white/20 shadow-lg;
+  .section-number {
+    @apply text-[120px] md:text-[200px] font-serif font-bold leading-none text-turtle/30 select-none;
+  }
+  .section-label {
+    @apply text-xs font-sans font-bold tracking-[0.3em] uppercase text-lime mb-4;
+  }
+  .section-title {
+    @apply text-3xl md:text-5xl font-serif font-bold text-daisy leading-tight mb-6;
+  }
+  .section-text {
+    @apply text-leek leading-relaxed text-sm md:text-base;
   }
   .btn-primary {
-    @apply bg-expo-green text-white px-8 py-3 rounded-full font-bold 
-           hover:bg-expo-light transition-all duration-300 
-           hover:shadow-xl hover:scale-105 active:scale-95;
+    @apply bg-saratoga text-daisy px-8 py-3 rounded-none font-sans font-semibold 
+           hover:bg-lime transition-all duration-300 tracking-wider uppercase text-sm;
   }
-  .btn-gold {
-    @apply bg-expo-gold text-expo-dark px-8 py-3 rounded-full font-bold 
-           hover:bg-yellow-500 transition-all duration-300 
-           hover:shadow-xl hover:scale-105 active:scale-95;
+  .btn-outline {
+    @apply border border-leek/50 text-leek px-8 py-3 font-sans font-semibold 
+           hover:bg-leek/10 transition-all duration-300 tracking-wider uppercase text-sm;
   }
-  .section-padding {
-    @apply px-4 sm:px-6 lg:px-8 xl:px-16 py-16 md:py-24;
-  }
-  .text-gradient {
-    @apply bg-gradient-to-r from-expo-green to-expo-light bg-clip-text text-transparent;
-  }
-  .card-hover {
-    @apply transition-all duration-500 hover:shadow-2xl hover:-translate-y-2;
+  .glass-nav {
+    @apply backdrop-blur-md bg-darkness/80 border-b border-turtle/30;
   }
 }
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #F5F0E6;
+  background: #1B1B09;
 }
 ::-webkit-scrollbar-thumb {
-  background: #2D5A27;
-  border-radius: 4px;
+  background: #595C31;
+  border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #4A8B3C;
+  background: #838450;
+}
+
+/* Selection color */
+::selection {
+  background: #595C31;
+  color: #ECE6C0;
 }

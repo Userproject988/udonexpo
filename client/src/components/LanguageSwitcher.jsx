@@ -24,34 +24,30 @@ export default function LanguageSwitcher() {
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
         onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center gap-2 px-4 py-2 rounded-full bg-expo-green/10 
-                   border border-expo-green/30 text-expo-green font-semibold 
-                   hover:bg-expo-green/20 transition-colors"
-      >
+        className="flex items-center gap-2 px-4 py-2 border border-saratoga/50 text-leek 
+                   font-sans text-xs tracking-wider uppercase hover:border-lime hover:text-daisy 
+                   transition-colors">
         <Globe className="w-4 h-4" />
-        <span className="text-sm">{currentLanguage.flag} {currentLanguage.label}</span>
+        <span>{currentLanguage.flag} {currentLanguage.label}</span>
       </motion.button>
 
       <AnimatePresence>
         {isOpen && (
           <motion.div
-            initial={{ opacity: 0, y: -10, scale: 0.95 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: -10, scale: 0.95 }}
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -10 }}
             transition={{ duration: 0.2 }}
-            className="absolute right-0 mt-2 w-40 bg-white rounded-xl shadow-2xl 
-                       border border-gray-100 overflow-hidden z-50"
-          >
+            className="absolute right-0 mt-2 w-40 bg-turtle border border-saratoga/50 overflow-hidden z-50">
             {LANGUAGES.map((lang) => (
               <button
                 key={lang.code}
                 onClick={() => { changeLanguage(lang.code); setIsOpen(false) }}
-                className={`w-full text-left px-4 py-3 flex items-center gap-3 
-                           hover:bg-expo-green/10 transition-colors
-                           ${currentLanguage.code === lang.code ? 'bg-expo-green/5 text-expo-green font-bold' : 'text-gray-700'}`}
-              >
-                <span className="text-lg">{lang.flag}</span>
-                <span className="text-sm">{lang.label}</span>
+                className={`w-full text-left px-4 py-3 flex items-center gap-3 font-sans text-sm
+                           hover:bg-saratoga/30 transition-colors
+                           ${currentLanguage.code === lang.code ? 'bg-saratoga/20 text-daisy font-bold' : 'text-leek'}`}>
+                <span>{lang.flag}</span>
+                <span>{lang.label}</span>
               </button>
             ))}
           </motion.div>
